@@ -1,0 +1,46 @@
+Device Name Meow 
+
+Task1 
+what dows the acronym VM stand for?
+Virtual Machine
+
+Task2
+What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.
+Terminal 
+
+What service do we use to form our VPN connection into HTB labs?
+openvpn
+
+What is the abbreviated name for a 'tunnel interface' in the output of your VPN boot-up sequence output?
+TUN
+
+What tool do we use to test our connection to the target with an ICMP echo request?
+ping
+
+What is the name of the most common tool for finding open ports on a target?
+nmap
+
+What service do we identify on port 23/tcp during our scans?
+telnet
+
+What username is able to log into the target over telnet with a blank password?
+root
+
+
+Main Part
+1. Need to check which ports are open using nmap 
+$nmap -sV <ip-address>
+
+2. once you knew that port telnet(23) is open 
+try to connect 
+
+telnet <ip-address> 23
+
+3. enter password as root
+cat the file name called flag.txt
+
+Finally You have Pawned the machine :)
+
+
+
+
