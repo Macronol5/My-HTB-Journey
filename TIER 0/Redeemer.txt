@@ -1,0 +1,66 @@
+Machine name Redeemer
+
+It took me lot of time to during scanning 
+
+Which TCP port is open on the machine?
+6379
+
+Which service is running on the port that is open on the machine?
+redis
+
+What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database
+(i) In-memory Database,
+
+
+Which command-line utility is used to interact with the Redis server? Enter the program name you would enter into the 
+terminal without any arguments.
+redis-cli
+
+Which flag is used with the Redis command-line utility to specify the hostname?
+-h
+
+
+Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis server?
+info
+
+What is the version of the Redis server being used on the target machine?
+5.0.7
+
+Which command is used to select the desired database in Redis?
+select
+
+
+How many keys are present inside the database with index 0?
+4
+
+
+Which command is used to obtain all the keys in a database?
+keys *
+
+main step 
+1.you need to download the redis database to access this machine 
+sudo apt install redis-server
+
+2.you need to connect to database if you need to view inside
+
+redis-cli -h 10.144.62.3 -p 30000
+
+
+3.once you connected use help command 
+help keys 
+
+using $keys *
+
+you can access all the keys
+you will find a flag in there 
+
+4.if you need to get the value stored in that keys
+$get flag
+
+Finally you had Pawned the Redeemer Machine :)
+
+
+
+
+
+
