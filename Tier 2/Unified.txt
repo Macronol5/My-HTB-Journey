@@ -1,0 +1,58 @@
+Unified 
+
+Which are the first four open ports?
+22,6789,8080,8443
+
+What is the title of the software that is running running on port 8443?
+UniFi Network
+
+What is the version of the software that is running?
+6.4.54
+
+What is the CVE for the identified vulnerability?
+CVE-2021-44228
+
+
+What protocol does JNDI leverage in the injection?
+ldap
+
+What tool do we use to intercept the traffic, indicating the attack was successful?
+tcpdump
+
+What port do we need to inspect intercepted traffic for?
+389
+
+What port is the MongoDB service running on?
+27117
+
+What is the default database name for UniFi applications?
+ace
+
+What is the function we use to enumerate users within the database in MongoDB?
+db.admin.find()
+
+What is the function we use to update users within the database in MongoDB?
+db.admin.update()
+
+What is the password for the root user?
+NotACrackablePassword4U2022
+
+User Flag : 6ced1a6a89e666c0620cdb10262ba127
+
+Root Flag : e50bc93c75b634e4b272d2f771c33681
+
+https://www.hackthebox.com/achievement/machine/436184/441
+
+
+
+
+
+
+
+
+
+
+
+
+
+
